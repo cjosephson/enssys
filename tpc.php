@@ -1,5 +1,5 @@
 <?php include "top.php"; ?>
-	
+
 <h1>Workshop Organisation</h1>
 
 <h2>Organising Committee</h2>
@@ -65,24 +65,14 @@
 	<li>Mo Alloulah, Nokia Bell Labs, USA</li>
 	<li>Brad Campbell, University of Virginia, USA</li>
 	<li>Henry Duwe, Iowa State University, USA</li>
-	<li>Natalie Enright Jerger, University of Toronto, Canada</li>
 	<li>Maria Gorlatova, Duke University, USA</li>
 	<li>Jeremy Gummeson, University of Massachusetts Amherst, USA</li>
-	<li>Wen Hu, University of New South Wales</li>
 	<li>Matthew Hicks, Virginia Tech, USA</li>
-	<li>Polly Huang, National Taiwan University, Taiwan</li>
-	<li>Raja Jurdak, CSIRO, Australia</li>
-	<li>Tianxing Li, Michigan State University, USA</li>
-	<li>Michele Magno, ETH Z&uuml;rich, Switzerland</li>
-	<li>Shijia Pan, University of California, Merced, USA</li>
-	<li>Joshua San Miguel, University of Wisconsin-Madison, USA</li>
 	<li>Anand Savanth, Arm Research, UK</li>
 	<li>Olivier Sentieys, University of Rennes, France</li>
 	<li>Kasim Sinan Yildirim, University of Trento, Italy</li>
 	<li>Matthias W&auml;hlisch, Freie Universit&auml;t Berlin, Germany</li>
 	<li>Lars Wolf, TU Braunschweig, Germany</li>
-	<li>Alanson Sample, University of Michigan, USA</li>
-	<li>Chenren Xu, Beijing University, China</li>
 	<li>Matteo Zella, University Duisburg-Essen, Germany</li>
 </ul>
 
