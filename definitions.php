@@ -111,21 +111,21 @@
 
 		//print "<h3>Camera-Ready Instructions</h3>	To assist you with preparing your camera-ready ENSsys paper, please refer to the following instructions. You should use the <a href='https://www.acm.org/publications/proceedings-template'>acmart.cls</a>.<br><br>	Please note that ACM uses 9-pt fonts in all conference proceedings, and the style (both LaTeX and Word) implicitly define the font size to be 9-pt. Please refer to the <a href='http://sensys.acm.org/2019/resources/documents/HowTo.pdf'>SenSys notes</a> on how to use the templates, as well as the User Guide of the new class. Accepted submissions will be available on the ACM digital library.<br><br>	A reminder of page limits:<ul>	<li>Technical Papers: up to 6 pages (including everything except references);</li>	<li>Position Papers: up to 3 pages (including everything);</li>	<li>Poster Papers: up to 2 pages (including everything);</li>	<li>Demo Papers: up to 2 pages (including everything).</li>	</ul><br>		We will be in contact ASAP with instructions on copyright and upload of your camera-ready paper. The deadline for upload will be 20 September 23:59:59 UTC.";
 
-		//print "<h3>Formatting Guidelines</h3>
+		print "<h3>Formatting Guidelines</h3>
 
-		//You should use the <a href='https://www.acm.org/publications/proceedings-template'>acmart.cls</a> template.<br><br>
+		You should use the <a href='https://www.acm.org/publications/proceedings-template'>acmart.cls</a> template.<br><br>
 
-		//Please note that ACM uses 9-pt fonts in all conference proceedings, and the style (both LaTeX and Word) implicitly define the font size to be 9-pt. Please refer to the <a href='http://sensys.acm.org/2020/resources/documents/HowTo.pdf'>SenSys notes</a> on how to use the templates, as well as the User Guide of the new class.<br><br>
+		Please note that ACM uses 9-pt fonts in all conference proceedings, and the style (both LaTeX and Word) implicitly define the font size to be 9-pt. Please refer to the <a href='http://sensys.acm.org/2020/resources/documents/HowTo.pdf'>SenSys notes</a> on how to use the templates, as well as the User Guide of the new class.<br><br>
 
-		//Authors are asked to remove their names and other identifying statements from submissions by:
+		Authors are asked to remove their names and other identifying statements from submissions by:
 
-		//<ol>
-		//	<li>using the 'anonymous' option for the class, and</li>
-		//	<li>using 'anonsuppress' section where appropriate.</li>
-		//</ol><br>
-		//Submissions will be reviewed for novelty, relevance and quality. Accepted papers will be available on the ACM Digital Library on the first day of the conference.
+		<ol>
+			<li>using the 'anonymous' option for the class, and</li>
+			<li>using 'anonsuppress' section where appropriate.</li>
+		</ol><br>
+		Submissions will be reviewed for novelty, relevance and quality. Accepted abstracts will be available on the ACM Digital Library on the first day of the conference.
 
-		//<p style='font-size: 120%; text-align: center;'><b>All papers should be submitted through <a href='https://enssys20.hotcrp.com/'>HotCRP</a></b></p>";
+		<p style='font-size: 120%; text-align: center;'><b>All papers should be submitted through <a href='https://enssys21.hotcrp.com/'>HotCRP</a></b></p>";
 
 		print "<h3>Camera-Ready Instructions</h3>
 
