@@ -54,7 +54,7 @@
 	}
 	function print_workshop_date()
 	{
-		print "November 2021";
+		print "November 17, 2021";
 	}
 
 
@@ -71,7 +71,7 @@
 	{
 		return "http://www.enssys.org/";
 	}
-	
+
 	function print_topics_of_interest()
 	{
 		print "Topics of interest include, but are not limited to, the following:
@@ -91,16 +91,16 @@
 				<li>Experience with real-world deployments and innovative applications
 			</ul>";
 	}
-	
+
 	function print_submission_details()
 	{
 		print "We are soliciting two types of short abstract submissions:
 			<ul>
-				<li><b>Technical concept pitches</b> (target 2 pages, hard limit 3 pages including references), which will receive feedback and guidance from the TPC;</li>
-				<li><b>Position pitches</b> (target 2 pages, hard limit 3 pages including references).</li>
+				<li><b>Presentation abstracts (incl. technical concepts, early results and position pitches)</b> (target 2 pages, hard limit 3 pages including references), which will receive feedback and guidance from the TPC;</li>
+				<li><b>Demo abstracts</b> (target 2 pages, hard limit 3 pages including references).</li>
 			</ul><br>
-			Pitches that continue on to be full submissions for ENSsys@APSLOS in 2022 will receive special consideration and the same set of reviewers (where possible).<br><br>
-			ENSsys will also feature an ''Energy Harvesting Village.'' This is an opportunity to showcase prior, established work to a new audience, as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems. Mini-tutorial and demo pitches should send a brief abstract and their requirements to the Village Chair directly. Tutorial and demo pitches are requested by September 01, 2021 if possible.";
+			Authors are encouraged to extend their abstracts for the upcoming ENSsys workshop at ASPLOS 2022. Abstracts that continue on to be full submissions for ENSsys@APSLOS in 2022 will receive special consideration and the same set of reviewers (where possible).<br><br>
+			Authors of accepted presentation abstracts will be provided a timeslot for an oral presentation. Authors of accepted demo abstracts will have the opportunity to showcase their work to the auience during a demo session.";
 		}
 
 	function print_formatting_details()
@@ -111,26 +111,26 @@
 
 		//print "<h3>Camera-Ready Instructions</h3>	To assist you with preparing your camera-ready ENSsys paper, please refer to the following instructions. You should use the <a href='https://www.acm.org/publications/proceedings-template'>acmart.cls</a>.<br><br>	Please note that ACM uses 9-pt fonts in all conference proceedings, and the style (both LaTeX and Word) implicitly define the font size to be 9-pt. Please refer to the <a href='http://sensys.acm.org/2019/resources/documents/HowTo.pdf'>SenSys notes</a> on how to use the templates, as well as the User Guide of the new class. Accepted submissions will be available on the ACM digital library.<br><br>	A reminder of page limits:<ul>	<li>Technical Papers: up to 6 pages (including everything except references);</li>	<li>Position Papers: up to 3 pages (including everything);</li>	<li>Poster Papers: up to 2 pages (including everything);</li>	<li>Demo Papers: up to 2 pages (including everything).</li>	</ul><br>		We will be in contact ASAP with instructions on copyright and upload of your camera-ready paper. The deadline for upload will be 20 September 23:59:59 UTC.";
 
-		//print "<h3>Formatting Guidelines</h3>
- 
-		//You should use the <a href='https://www.acm.org/publications/proceedings-template'>acmart.cls</a> template.<br><br>
+		print "<h3>Formatting Guidelines</h3>
 
-		//Please note that ACM uses 9-pt fonts in all conference proceedings, and the style (both LaTeX and Word) implicitly define the font size to be 9-pt. Please refer to the <a href='http://sensys.acm.org/2020/resources/documents/HowTo.pdf'>SenSys notes</a> on how to use the templates, as well as the User Guide of the new class.<br><br>
-		
-		//Authors are asked to remove their names and other identifying statements from submissions by:
+		You should use the <a href='https://www.acm.org/publications/proceedings-template'>acmart.cls</a> template.<br><br>
 
-		//<ol>
-		//	<li>using the 'anonymous' option for the class, and</li>
-		//	<li>using 'anonsuppress' section where appropriate.</li>
-		//</ol><br>
-		//Submissions will be reviewed for novelty, relevance and quality. Accepted papers will be available on the ACM Digital Library on the first day of the conference.
-		
-		//<p style='font-size: 120%; text-align: center;'><b>All papers should be submitted through <a href='https://enssys20.hotcrp.com/'>HotCRP</a></b></p>";
+		Please note that ACM uses 9-pt fonts in all conference proceedings, and the style (both LaTeX and Word) implicitly define the font size to be 9-pt. Please refer to the <a href='http://sensys.acm.org/2020/resources/documents/HowTo.pdf'>SenSys notes</a> on how to use the templates, as well as the User Guide of the new class.<br><br>
+
+		Authors are asked to remove their names and other identifying statements from submissions by:
+
+		<ol>
+			<li>using the 'anonymous' option for the class, and</li>
+			<li>using 'anonsuppress' section where appropriate.</li>
+		</ol><br>
+		Submissions will be reviewed for novelty, relevance and quality. Accepted abstracts will be available on the ACM Digital Library on the first day of the conference.
+
+		<p style='font-size: 120%; text-align: center;'><b>All papers should be submitted through <a href='https://enssys21.hotcrp.com/'>HotCRP</a></b></p>";
 
 		print "<h3>Camera-Ready Instructions</h3>
-		
+
 		To appear";
-		
+
 		// To assist you with preparing your camera-ready ENSsys paper, please refer to the following instructions. You should use the <a href='https://www.acm.org/publications/proceedings-template'>acmart.cls</a>.<br><br>
 
 		//Please note that ACM uses 9-pt fonts in all conference proceedings, and the style (both LaTeX and Word) implicitly define the font size to be 9-pt. Please refer to the <a href='http://sensys.acm.org/2020/resources/documents/HowTo.pdf'>SenSys notes</a> on how to use the templates, as well as the User Guide of the new class. Accepted submissions will be available on the ACM digital library.<br><br>";
