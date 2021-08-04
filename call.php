@@ -26,11 +26,10 @@
 	?>
 
 	<ul>
-		<li>Tutorial/Demo Pitch Submission: <?php print_pitch_deadline(); ?>
-		<li>Abstract Submission: <?php print_abstract_deadline(); ?>
+		<li>Tutorial/Demo Submission: <?php print_pitch_deadline(); ?>
+		<li>Pitches Submission: <?php print_abstract_deadline(); ?>
 		<li>Notification: <?php print_notification_deadline(); ?>
 		<li>Camera Ready: <?php print_camera_ready_deadline(); ?>
-			
 	</ul>
 </p>
 
