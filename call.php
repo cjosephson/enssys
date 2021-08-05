@@ -23,14 +23,12 @@
 		print "<p>";
 			print_submission_details();
 		print "</p>";
-	?>
 
-	<ul>
-		<li>Tutorial/Demo Submission: <?php print_pitch_deadline(); ?>
-		<li>Pitches Submission: <?php print_abstract_deadline(); ?>
-		<li>Notification: <?php print_notification_deadline(); ?>
-		<li>Camera Ready: <?php print_camera_ready_deadline(); ?>
-	</ul>
+		print "<h3>Important Dates</h3>";
+		print "<p>";
+			print_important_dates();
+		print "</p>";
+	?>
 </p>
 
 <?php include "bottom.php"; ?>

@@ -36,10 +36,10 @@
 
 
 
-	function print_pitch_deadline()
-	{
-		print "Sept 01, 2021 (soft deadline)";
-	}
+	//function print_pitch_deadline()
+	//{
+	//	print "Sept 01, 2021 (soft deadline)";
+	//}
 	function print_abstract_deadline()
 	{
 		print "Sept 15, 2021 (23:59 AOE)";
@@ -100,14 +100,14 @@
 		print " Short papers that continue on to be full submissions for ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>.";
 		print " Authors of accepted short papers will be provided a timeslot for a brief oral presentation.</p>";
 		;
-		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit short papers via HotCRP.</a> &ndash; Be sure to chose the papers track!</li></ul>";
+		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit short papers via HotCRP</a> &ndash; Be sure to chose the papers track!</li></ul>";
 		;
 		print "<p>ENSsys will also feature an &ldquo;energy harvesting village.&rdquo;";
 		print " This is an opportunity to showcase prior, established work (or new work!) to a new audience as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems.";
 		print " Demos should submit a short (1 page, 2 if needed) abstract describing their proposed demo as well as any support resources from the venue which may be needed.";
 		print " Demo abstracts will be included in the ENSsys proceedings <span style=\"color:grey\">(if desired)</span>.";
 		;
-		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit demo abstracts via HotCRP.</a> &ndash; Be sure to chose the demos track!</li></ul>";
+		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit demo abstracts via HotCRP</a> &ndash; Be sure to chose the demos track!</li></ul>";
 		;
 	}
 
@@ -159,5 +159,15 @@
 		print "<p>For new work, we invite short pitches on technical issues in energy harvesting systems that remain underserved or more radical positions that invite rethinking of current system design.";
 		print " We will use these pitches to organize several smaller, highly interactive workgroups.";
 		print " Accepted pitch papers will be invited for fast-track submission as full papers at ENSsys@ASPLOS.</p>";
+	}
+
+	function print_important_dates()
+	{
+		print "<ul>";
+		//print "<li>Tutorial/Demo Submission: "; print_pitch_deadline(); print "</li>";
+		print "<li>Submission: "; print_abstract_deadline(); print "</li>";
+		print "<li>Notification:; "; print_notification_deadline(); print "</li>";
+		print "<li>Camera Ready: "; print_camera_ready_deadline(); print "</li>";
+		print "</ul>";
 	}
 ?>
