@@ -4,9 +4,13 @@
 
 <p>
 	<div class="dates" style="float: right; margin: 0px 0px 10px 10px;">
+		<center>
 		<b>
-			<a href="files/cfp_2021.pdf"><img src="images/cfp.png" width="200px"><br><br>Download the CfP</a> 
+			<a href="files/cfp_2021.pdf"><img src="images/cfp_2021_thumb.jpg" width="200px"><br><br>Download the CfP</a> 
 		</b>
+		</center>
+		<h3>Important Dates</h3>
+		<?php print_important_dates(); ?>
 	</div>
 </p>
 
@@ -24,13 +28,6 @@
 			print_submission_details();
 		print "</p>";
 	?>
-
-	<ul>
-		<li>Tutorial/Demo Submission: <?php print_pitch_deadline(); ?>
-		<li>Pitches Submission: <?php print_abstract_deadline(); ?>
-		<li>Notification: <?php print_notification_deadline(); ?>
-		<li>Camera Ready: <?php print_camera_ready_deadline(); ?>
-	</ul>
 </p>
 
 <?php include "bottom.php"; ?>

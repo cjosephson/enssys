@@ -36,13 +36,13 @@
 
 
 
-	function print_pitch_deadline()
-	{
-		print "Sept 01, 2021 (soft deadline)";
-	}
+	//function print_pitch_deadline()
+	//{
+	//	print "Sept 01, 2021 (soft deadline)";
+	//}
 	function print_abstract_deadline()
 	{
-		print "Sept 15, 2021 (23:59 AOE)";
+		print "Sept 20, 2021 (23:59 AOE)";
 	}
 	function print_notification_deadline()
 	{
@@ -95,17 +95,20 @@
 	function print_submission_details()
 	{
 		print "<h3>Details</h3>";
-		print "<p>ENSsys@SenSys solicits &ldquo;pitch&rdquo; or &ldquo;extended abstract&rdquo; submissions.  We welcome both technical concept pitches and position pitches (target 2 pages, hard limit 3 pages including references).";
-		print " Pitches will receive feedback and guidance from the TPC.";
-		print " Pitches that continue on to be full submissions for ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>.";
-		print " Authors of accepted pitches will be provided a timeslot for a brief oral presentation.</p>";
+		print "<p>ENSsys@SenSys solicits short paper submissions.  We welcome both technical concept short papers and position short papers (target 2 pages, hard limit 3 pages including references).";
+		print " Short papers will receive feedback and guidance from the TPC.";
+		print " Short papers that continue on to be full submissions for ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>.";
+		print " Authors of accepted short papers will be provided a timeslot for a brief oral presentation.</p>";
 		;
-		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit pitch papers via HotCRP.</a></li></ul>";
+		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit short papers via HotCRP</a> &ndash; Be sure to chose the papers track!</li></ul>";
 		;
 		print "<p>ENSsys will also feature an &ldquo;energy harvesting village.&rdquo;";
-		print " This is an opportunity to showcase prior, established work to a new audience as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems.";
-		print " Mini-tutorials and demos should send a few-sentence abstract and their requirements to the Village Chairs directly.";
-		print " Presenters of mini-tutorials and demos who wish to have an archival publication are welcome to submit a 2-3 page extended abstract, which will be included in the ENSsys proceedings.";
+		print " This is an opportunity to showcase prior, established work (or new work!) to a new audience as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems.";
+		print " Demos should submit a short (1 page, 2 if needed) abstract describing their proposed demo as well as any support resources from the venue which may be needed.";
+		print " Demo abstracts will be included in the ENSsys proceedings <span style=\"color:grey\">(if desired)</span>.";
+		;
+		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit demo abstracts via HotCRP</a> &ndash; Be sure to chose the demos track!</li></ul>";
+		;
 	}
 
 	function print_formatting_details()
@@ -151,10 +154,20 @@
 	{
 		print "<h3>ENSsys@SenSys Details</h3>";
 		print "<p>ENSsys@SenSys will be a highly interactive workshop.</p>";
-		print "<p>First, we invite &ldquo;mini-tutorials&rdquo; and demos from established energy harvesting systems &ndash; we aim to open ENSsys with a showcase of existing work to set a baseline of what is possible today and spark ideas for what can be built in the future.";
+		print "<p>First, we invite demos from established energy harvesting systems &ndash; we aim to open ENSsys with a showcase of existing work to set a baseline of what is possible today and spark ideas for what can be built in the future.";
 		print " Demos previously presented in other venues are explicitly welcome.</p>";
 		print "<p>For new work, we invite short pitches on technical issues in energy harvesting systems that remain underserved or more radical positions that invite rethinking of current system design.";
 		print " We will use these pitches to organize several smaller, highly interactive workgroups.";
 		print " Accepted pitch papers will be invited for fast-track submission as full papers at ENSsys@ASPLOS.</p>";
+	}
+
+	function print_important_dates()
+	{
+		print "<ul>";
+		//print "<li>Tutorial/Demo Submission: "; print_pitch_deadline(); print "</li>";
+		print "<li>Submission: "; print_abstract_deadline(); print "</li>";
+		print "<li>Notification:; "; print_notification_deadline(); print "</li>";
+		print "<li>Camera Ready: "; print_camera_ready_deadline(); print "</li>";
+		print "</ul>";
 	}
 ?>
