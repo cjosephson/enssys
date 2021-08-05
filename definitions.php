@@ -104,8 +104,8 @@
 		;
 		print "<p>ENSsys will also feature an &ldquo;energy harvesting village.&rdquo;";
 		print " This is an opportunity to showcase prior, established work to a new audience as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems.";
-		print " Mini-tutorials and demos should send a few-sentence abstract and their requirements to the Village Chairs directly.";
-		print " Presenters of mini-tutorials and demos who wish to have an archival publication are welcome to submit a 2-3 page extended abstract, which will be included in the ENSsys proceedings.";
+		print " Demos should send a few-sentence abstract and their requirements to the Village Chairs directly.";
+		print " Presenters of demos who wish to have an archival publication are welcome to submit a 2-3 page extended abstract, which will be included in the ENSsys proceedings.";
 	}
 
 	function print_formatting_details()
@@ -151,7 +151,7 @@
 	{
 		print "<h3>ENSsys@SenSys Details</h3>";
 		print "<p>ENSsys@SenSys will be a highly interactive workshop.</p>";
-		print "<p>First, we invite &ldquo;mini-tutorials&rdquo; and demos from established energy harvesting systems &ndash; we aim to open ENSsys with a showcase of existing work to set a baseline of what is possible today and spark ideas for what can be built in the future.";
+		print "<p>First, we invite demos from established energy harvesting systems &ndash; we aim to open ENSsys with a showcase of existing work to set a baseline of what is possible today and spark ideas for what can be built in the future.";
 		print " Demos previously presented in other venues are explicitly welcome.</p>";
 		print "<p>For new work, we invite short pitches on technical issues in energy harvesting systems that remain underserved or more radical positions that invite rethinking of current system design.";
 		print " We will use these pitches to organize several smaller, highly interactive workgroups.";
