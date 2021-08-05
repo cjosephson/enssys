@@ -28,7 +28,7 @@
 	Colleen Josephson<br>
 	VMWare Research, USA<br>
 	w: <a href="https://www.cjosephson.net/">https://www.cjosephson.net/</a><br>
-	@: <a href="mailto:cajoseph [at] stanford.edu">cajoseph [at] stanford.edu</a><br>
+	@: <a href="mailto:cjosephson [at] vmware.com">cjosephson [at] vmware.com</a><br>
 </div>
 
 <div class="card">

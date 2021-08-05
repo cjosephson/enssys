@@ -35,6 +35,10 @@
 			<div class="menu_item">
 				<a href="tpc.php">Organisers</a>
 			</div>
+						<div class="menu_item">
+				<a href="sponsors.php">Sponsors</a>
+			</div>
+
 			<div class="menu_item">
 				<a href="venue.php">Location</a>
 			</div>
