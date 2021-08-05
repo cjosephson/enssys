@@ -42,7 +42,7 @@
 	//}
 	function print_abstract_deadline()
 	{
-		print "Sept 15, 2021 (23:59 AOE)";
+		print "Sept 20, 2021 (23:59 AOE)";
 	}
 	function print_notification_deadline()
 	{
