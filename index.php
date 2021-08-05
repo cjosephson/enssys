@@ -9,11 +9,11 @@
 </p>
 
 <p>
-	<div class="dates" style="float: right; margin: 0px 0px 10px 10px; width: 325px;">	
+	<div class="dates" style="float: right; margin: 0px 0px 10px 10px; width: 375px;">	
 		<b>Important Dates</b>
 		<ul>
-			<li>Tutorial/Demo Pitch Submission: <?php print_pitch_deadline(); ?>
-			<li>Abstract Submission: <?php print_abstract_deadline(); ?>
+			<li>Tutorial/Demo Submission: <?php print_pitch_deadline(); ?>
+			<li>Pitches Submission: <?php print_abstract_deadline(); ?>
 			<li>Notification: <?php print_notification_deadline(); ?>
 			<li>Camera Ready: <?php print_camera_ready_deadline(); ?>
 		</ul>
@@ -29,7 +29,7 @@
 
 		<b>Previous Workshops</b>
 		<ul>
-			<li><a href="http://www.enssys.org/2020">ENSsys 2021</a> (Virtual Event)
+			<li><a href="http://www.enssys.org/2020">ENSsys 2020</a> (Virtual Event)
 			<li><a href="http://www.enssys.org/2019">ENSsys 2019</a> (New York City, USA)
 			<li><a href="http://www.enssys.org/2018">ENSsys 2018</a> (Shenzhen, China)
 			<li><a href="http://www.enssys.org/2017">ENSsys 2017</a> (Delft, Netherlands)
@@ -42,6 +42,7 @@
 
 	<?php
 		print_topics_of_interest();
+		print_edition_detail_sensys();
 	?>
 </p>
 

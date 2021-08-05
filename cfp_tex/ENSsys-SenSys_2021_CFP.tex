@@ -1,0 +1,269 @@
+\documentclass[a4paper,10pt]{scrartcl}
+\pagestyle{empty}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[markup=nocolor,deletedmarkup=xout]{changes}
+
+\usepackage{geometry}
+\geometry{a4paper, portrait, margin=1.5cm, bottom=1.0cm, top=7.5cm}
+
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0mm}
+
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+
+\usepackage{Alegreya} %% Option 'black' gives heavier bold face 
+\renewcommand*\oldstylenums[1]{{\AlegreyaOsF #1}}
+
+
+\renewcommand*\footnoterule{}
+\renewcommand\thefootnote{\textcolor{cfp_darkcolor}{\fnsymbol{footnote}}}
+\setcounter{footnote}{1}
+
+
+%opening
+\title{}
+\author{}
+
+
+\definecolor{cfp_darkcolor}{RGB}{102,0,204}
+\definecolor{cfp_lightcolor}{RGB}{223,209,255}
+
+
+\begin{document}
+
+%\maketitle
+
+\begin{tikzpicture}[overlay, remember picture]
+  % hack thicker purple banner at top
+  \node[anchor = north, inner sep=0] at ($(current page.north)+(0,0)$) {%
+    \includegraphics[width=\paperwidth]{ENSsys2021-header}
+  };
+
+  % hack thicker purple banner at top
+  \node[anchor = north, inner sep=0] at ($(current page.north)+(0,-.2cm)$) {%
+    \includegraphics[width=\paperwidth]{ENSsys2021-header}
+  };
+
+  % hack thicker purple banner at top
+  \node[anchor = north, inner sep=0] at ($(current page.north)+(0,-.4cm)$) {%
+    \includegraphics[width=\paperwidth]{ENSsys2021-header}
+  };
+
+  % hack thicker purple banner at top
+  \node[anchor = north, inner sep=0] at ($(current page.north)+(0,-.6cm)$) {%
+    \includegraphics[width=\paperwidth]{ENSsys2021-header}
+  };
+
+  % hack thicker purple banner at top
+  \node[anchor = north, inner sep=0] at ($(current page.north)+(0,-.8cm)$) {%
+    \includegraphics[width=\paperwidth]{ENSsys2021-header}
+  };
+
+  \node[anchor = north, inner sep=0] (header) at ($(current page.north)+(0,-1cm)$) {%
+    \includegraphics[width=\paperwidth]{ENSsys2021-header}
+  };
+
+  \node[anchor = north, align = left] at ($(current page.north)+(-5.9cm,-0.1cm)$) {%
+    \fontsize{48pt}{56pt}\bfseries\selectfont\textcolor{white}{ENSsys 2021}\\
+    \Large\textcolor{cfp_lightcolor}{in conjunction with ACM SenSys}% 2021}
+    %\Large\textcolor{cfp_lightcolor}{co-located with ACM SenSys} % (pending Workshop approval by SenSys)}% 2021}
+  };
+
+  \node[anchor = north west, align = left, text=black] at ($(current page.north west)+(1.5cm,-4.3cm)$) {%
+    {\bfseries\large 9\textsuperscript{th} Int'l Workshop on Energy Harvesting \& Energy-Neutral Sensing Systems}\\[2mm]
+%     \normalsize\textsl{%
+%     November 16, 2020
+%     Tokyo, Japan}
+    %\Huge\textcolor{white}{ENSsys 2016}\\[2mm]
+    %\large\textcolor{cfp_lightcolor}{in conjunction with ACM SenSys 2016}
+  };
+
+  \node[anchor = south east, align = right, text=cfp_darkcolor] at (header.south east) {%
+    {\normalsize\textsl{November 2021 --- Coimbra, Portugal}}
+    %\Huge\textcolor{white}{ENSsys 2016}\\[2mm]
+    %\large\textcolor{cfp_lightcolor}{in conjunction with ACM SenSys 2016}
+  };
+
+  %\node[rotate=0, opacity=0.5] at ($(current page.center)+(0,8.5cm)$) {\fontsize{100}{100}\selectfont\bfseries\scshape\textcolor{lightgray}{provisional}};
+  %\node[rotate=50, opacity=0.5] at (current page.center) {\fontsize{100}{100}\selectfont\bfseries\scshape\textcolor{lightgray}{provisional}};
+\end{tikzpicture}
+
+
+\newcommand{\secCap}[1]{{\bfseries\scshape\LARGE\textcolor{cfp_darkcolor}{#1}}\\[1mm]}
+\newcommand{\subCap}[1]{{\bfseries\scshape\large\textcolor{cfp_darkcolor}{#1}}\\[1mm]}
+\newcommand{\orgaCap}[1]{{\bfseries\scshape\normalsize\textcolor{cfp_darkcolor}{#1}}\\[.5mm]}
+
+
+%%
+\renewcommand{\baselinestretch}{1.05} 
+
+
+%\textcolor{cfp_darkcolor}{\textbf{\Huge Call for Papers}}
+
+\vspace{-7.5em}
+\secCap{Call for Tutorials, Demos, \& Pitches}
+
+\vspace{-1em}
+%ENSsys will be held as a virtual event held in conjunction with ACM SenSys. % (pending Workshop approval by SenSys. %\footnote{\textcolor{cfp_darkcolor}{In the unlikely event that SenSys will not approve ENSsys, we will run the workshop independently in New York City at the same time.}}). % or else at a nearby venue on the same day.
+Complementing the topics of SenSys 2021, this workshop will bring researchers
+together to explore the challenges, issues, and opportunities in the research,
+design, and engineering of energy-harvesting, energy-neutral, and intermittent
+sensing systems.
+%
+%These are enabling technologies for future applications in
+%smart energy, transportation, environmental monitoring and smart cities.
+%
+%Innovative solutions in hardware for energy scavenging, adaptive algorithms,
+%and power management policies are needed to enable either uninterrupted or
+%intermittent operation.
+%
+%High quality technical articles are solicited,
+%describing advances in sensing systems powered by energy harvesting, as well
+%as those which describe practical deployments and implementation experiences.
+%ENSsys also offers a platform for innovative future directions by soliciting
+%position papers.
+%
+ENSsys@SenSys will be a highly interactive workshop.
+%
+First, we invite ``mini-tutorials'' and demos from established energy
+harvesting systems -- we aim to open ENSsys with a showcase of existing work
+to set a baseline of what is possible today and spark ideas for what can be
+built in the future.
+%
+Demos previously presented in other venues are explicitly welcome.
+%
+For new work, we invite short pitches on technical issues in energy harvesting
+systems that remain underserved or more radical positions that invite rethinking of
+current system design.
+%
+We will use these pitches to organize several smaller, highly interactive
+workgroups.
+%
+Accepted pitch papers will be invited for fast-track submission as full papers at ENSsys@ASPLOS.
+
+
+\vskip4mm
+%\fboxsep=0pt 
+\begin{minipage}{.49\textwidth}
+\begin{tcolorbox}[boxsep=0pt, top=2mm, left=2mm, right=2mm, bottom=0mm, arc=5pt, auto outer arc, colback=cfp_lightcolor, colframe=white]
+  \renewcommand{\baselinestretch}{0.95} 
+  \footnotesize
+  \orgaCap{Important Dates}
+  \setlength\tabcolsep{0pt}
+  \begin{tabular}{p{2.0cm}l}
+    %Submission:   &  \textcolor{red}{\deleted{August 3}} August 17, 2020 (23:59 AOE) \\
+    Submission:   &  September 20, 2021 (AoE) \\
+    Notification: &  October 11, 2021 \\
+    Camera Ready: &  [TBA] \\
+    Workshop:     &  November, 2021\\
+  \end{tabular}
+  
+  \vskip1mm
+  \orgaCap{Organizing Committee}
+  \begin{tabular}{p{2.0cm}l}
+  General Chair:       & Pat Pannuto; University of California, San Diego; USA \\     % ok
+  Program Chair:       & Sebastian Bader; Mid Sweden University; Sweden \\     % ok
+  Village Co-Chair:    & Colleen Josephson; VMWare Research; USA \\
+  Village Co-Chair:    & Michele Magno; ETH Zurich; Switzerland \\
+  Web Chair:           & Geoff V. Merrett; University of Southampton; UK
+  \end{tabular}
+
+  \vskip1mm
+  \orgaCap{Steering Committee}
+  \begin{tabular}{l}
+  Geoff Merrett; University of Southampton; UK \\
+  Bernd-Christian Renner; University Koblenz-Landau; Germany \\
+  Jacob Sorber; Clemson University; USA \\
+  Brandon Lucia, Carnegie Mellon University, USA \\
+  Przemys\textsf{\l{}}aw Pawe\textsf{\l{}}czak; TU Delft; The Netherlands \\
+  Josiah Hester; Northwestern University; USA \\
+  Alex Weddell; University of Southampton; UK \\
+  \end{tabular}
+
+  \vskip1mm
+  \orgaCap{Technical Program Committee}
+  \begin{tabular}{l}
+Mo Alloulah, Nokia Bell Labs, USA \\
+Brad Campbell, University of Virginia, USA \\
+Henry Duwe, Iowa State University, USA \\
+Maria Gorlatova, Duke University, USA \\
+Jeremy Gummeson, University of Massachusetts Amherst, USA \\
+Matthew Hicks, Virginia Tech, USA \\
+Anand Savanth, Arm Research, UK \\
+Olivier Sentieys, University of Rennes, France \\
+Kasım Sinan Yıldırım; University of Trento, Italy \\
+Matthias Wählisch, Freie Universität Berlin, Germany \\
+Lars Wolf, TU Braunschweig, Germany \\
+Matteo Zella, University Duisburg-Essen, Germany \\
+  \end{tabular}
+  \vspace{1mm}
+%\end{minipage}}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}{.49\textwidth}
+  \subCap{Workshop Scope}
+  Topics of interest include, but are not limited to:
+  \vskip1mm
+  \begin{itemize}[leftmargin=5mm,nolistsep]
+    \item Power management concepts, algorithms, and circuits for energy-harvesting sensing systems
+    \item Hardware and software concepts, algorithms, and circuits for intermittent computing
+    \item Middleware and services supporting interoperability between zero-energy networks
+    \item Resource management and operating system support for energy-harvesting sensing systems
+    \item Network-wide distributed energy management (e.g. routing, adaptive duty cycling, etc.)
+    \item Communication in intermittent-power domain
+    \item Online measurement of energy intake and consumption
+    \item Predicting energy intake and consumption
+    \item Ensuring reliable operation in energy-harvesting sensor systems
+    \item Modelling, simulation, and tools for effective design of future energy harvesting sensing systems 
+    \item Architectures and standards for energy-neutral, power-neutral, or intermittent sensing systems
+    \item Internet of (battery-less) Things
+    \item Experience with real-world deployments and innovative applications
+  \end{itemize}
+\end{minipage}
+
+\vskip4mm
+\subCap{Submission Guidelines}
+%We are soliciting four types of submission: technical papers (up to 6 pages, plus references), position papers (up to 3 pages), poster papers (up to 2 pages), and demo papers (up to 2 pages). Accepted authors will be requested to upload a video prior to the event, with live interaction in scheduled sessions on the day of the workshop. Papers should be submitted for consideration via the workshop website, prior to the submission deadline. Papers should adhere to the formatting guidelines; templates are available from the workshop website. Papers will undergo double-blind review, and will be reviewed for novelty, relevance and quality. Accepted submissions will be available on the ACM Digital Library at least one week before the conference.
+
+ENSsys@SenSys solicits ``pitch'' or ``extended abstract'' submissions.
+We welcome both technical concept pitches and position pitches (target 2 pages, hard limit 3 pages including references).
+%
+Pitches will receive feedback and guidance from the TPC.
+%
+Pitches that continue on to be full submissions for ENSsys@ASPLOS will receive
+special consideration and the same set of reviewers.
+%
+%Papers should be submitted for consideration via the workshop website, prior to the submission deadline. Papers should adhere to the formatting guidelines; templates are available from the workshop website. Papers will undergo double-blind review, and will be reviewed for novelty, relevance and quality. Accepted submissions will be available on the ACM Digital Library at least one week before the conference.
+
+\smallskip
+
+ENSsys will also feature an ``energy harvesting village.''
+%
+This is an opportunity to showcase prior, established work to a new audience
+as well as to provide mini-lessons on key concepts in energy harvesting design
+or introductions to platforms and tooling that aim to facilitate and support
+energy harvesting systems.
+%
+Mini-tutorials and demos should send a few-sentence abstract and their requirements to the Village Chairs directly.
+%
+Presenters of mini-tutorials and demos who wish to have an archival publication are welcome to submit a 2-3 page extended abstract, which will be included in the ENSsys proceedings.
+
+\begin{center}
+  \Huge\bfseries\textcolor{cfp_darkcolor}{www.enssys.org}
+\end{center}
+
+% \vskip-20mm
+% \begin{tikzpicture}[overlay, remember picture]
+%   \node[rotate=50, opacity=0.3] at (current page.center) {\fontsize{140}{140}\selectfont\bfseries\scshape\textcolor{lightgray}{tentative}};
+% \end{tikzpicture}
+
+\end{document}
