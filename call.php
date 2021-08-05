@@ -7,6 +7,8 @@
 		<b>
 			<a href="files/cfp_2021.pdf"><img src="images/cfp.png" width="200px"><br><br>Download the CfP</a> 
 		</b>
+		<h3>Important Dates</h3>
+		<?php print_important_dates(); ?>
 	</div>
 </p>
 
@@ -22,11 +24,6 @@
 	
 		print "<p>";
 			print_submission_details();
-		print "</p>";
-
-		print "<h3>Important Dates</h3>";
-		print "<p>";
-			print_important_dates();
 		print "</p>";
 	?>
 </p>
