@@ -95,17 +95,20 @@
 	function print_submission_details()
 	{
 		print "<h3>Details</h3>";
-		print "<p>ENSsys@SenSys solicits &ldquo;pitch&rdquo; or &ldquo;extended abstract&rdquo; submissions.  We welcome both technical concept pitches and position pitches (target 2 pages, hard limit 3 pages including references).";
-		print " Pitches will receive feedback and guidance from the TPC.";
-		print " Pitches that continue on to be full submissions for ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>.";
-		print " Authors of accepted pitches will be provided a timeslot for a brief oral presentation.</p>";
+		print "<p>ENSsys@SenSys solicits short paper submissions.  We welcome both technical concept short papers and position short papers (target 2 pages, hard limit 3 pages including references).";
+		print " Short papers will receive feedback and guidance from the TPC.";
+		print " Short papers that continue on to be full submissions for ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>.";
+		print " Authors of accepted short papers will be provided a timeslot for a brief oral presentation.</p>";
 		;
-		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit pitch papers via HotCRP.</a></li></ul>";
+		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit short papers via HotCRP.</a> &ndash; Be sure to chose the papers track!</li></ul>";
 		;
 		print "<p>ENSsys will also feature an &ldquo;energy harvesting village.&rdquo;";
-		print " This is an opportunity to showcase prior, established work to a new audience as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems.";
-		print " Demos should send a few-sentence abstract and their requirements to the Village Chairs directly.";
-		print " Presenters of demos who wish to have an archival publication are welcome to submit a 2-3 page extended abstract, which will be included in the ENSsys proceedings.";
+		print " This is an opportunity to showcase prior, established work (or new work!) to a new audience as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems.";
+		print " Demos should submit a short (1 page, 2 if needed) abstract describing their proposed demo as well as any support resources from the venue which may be needed.";
+		print " Demo abstracts will be included in the ENSsys proceedings <span style=\"color:grey\">(if desired)</span>.";
+		;
+		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit demo abstracts via HotCRP.</a> &ndash; Be sure to chose the demos track!</li></ul>";
+		;
 	}
 
 	function print_formatting_details()
