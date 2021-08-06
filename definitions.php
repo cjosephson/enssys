@@ -95,17 +95,17 @@
 	function print_submission_details()
 	{
 		print "<h3>Details</h3>";
-		print "<p>ENSsys@SenSys solicits short paper submissions.  We welcome both technical concept short papers and position short papers (target 2 pages, hard limit 3 pages including references).";
+		print "<p><b>Short papers:</b> ENSsys@SenSys solicits short paper submissions.  We welcome both technical concept short papers and position short papers (target 2 pages, hard limit 3 pages including references).";
 		print " Short papers will receive feedback and guidance from the TPC.";
 		print " Short papers that continue on to be full submissions for ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>.";
 		print " Authors of accepted short papers will be provided a timeslot for a brief oral presentation.</p>";
 		;
 		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit short papers via HotCRP</a> &ndash; Be sure to chose the papers track!</li></ul>";
 		;
-		print "<p>ENSsys will also feature an &ldquo;energy harvesting village.&rdquo;";
-		print " This is an opportunity to showcase prior, established work (or new work!) to a new audience as well as to provide mini-lessons on key concepts in energy harvesting design or introductions to platforms and tooling that aim to facilitate and support energy harvesting systems.";
+		print "<p><b>Demos:</b> ENSsys will also feature an &ldquo;energy harvesting village.&rdquo;";
+		print " This is an opportunity to showcase prior, established work (or new work!) to a new audience. ";
 		print " Demos should submit a short (1 page, 2 if needed) abstract describing their proposed demo as well as any support resources from the venue which may be needed.";
-		print " Demo abstracts will be included in the ENSsys proceedings <span style=\"color:grey\">(if desired)</span>.";
+		print " Demo abstracts will be included in the ENSsys proceedings <span style=\"color:grey\">(if desired)</span>, and we will encourage demos to be repeated at ASPLOS.";
 		;
 		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit demo abstracts via HotCRP</a> &ndash; Be sure to chose the demos track!</li></ul>";
 		;
@@ -147,7 +147,7 @@
 	function print_enssys_info()
 	{
 		print "<p>Complementing the topics of SenSys 2021 and ASPLOS 2022, this workshop will bring researchers together to explore the challenges, issues, and opportunities in the research, design, and engineering of energy-harvesting, energy-neutral, and intermittent sensing systems.</p>";
-		print "<p>New this year, ENSsys will run twice, first as a part of SenSys 2021 and then <span style=\"color:grey\">(tentatively)</span> as a part of ASPLOS 2022. Our goal is to leverage the success of ENSsys to both continue to support our home in the wireless sensor networking community and to grow interest and excitement for energy neutral, energy harvesting, and intermittent systems in the computer architecture and systems communities. For ENSsys@SenSys, we invite short 2-3 page &ldquo;pitches&rdquo; or &ldquo;extended abstracts&rdquo; &ndash; these early ideas will receive thoughtful feedback from TPC members and seed breakout discussions in the afternoon of ENSsys@SenSys. Pitches that grow to full paper submissions for ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>.</p>";
+		print "<p>New this year, ENSsys will run twice, first as a part of SenSys 2021 and then <span style=\"color:grey\">(tentatively)</span> as a part of ASPLOS 2022. Our goal is to leverage the success of ENSsys to both continue to support our home in the wireless sensor networking community and to grow interest and excitement for energy neutral, energy harvesting, and intermittent systems in the computer architecture and systems communities. For ENSsys@SenSys, we invite 1-2 page demo abtracts and short 2-3 page short papers. The short papers, which may be early ideas, will receive thoughtful feedback from TPC members and seed breakout discussions in the afternoon of ENSsys@SenSys. Short papers that grow to full paper submissions in time for the second iteration of ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>. Accepted demos will also be invited to repeat their demo again at ASPLOS.</p>";
 	}
 
 	function print_edition_detail_sensys()
@@ -156,15 +156,15 @@
 		print "<p>ENSsys@SenSys will be a highly interactive workshop.</p>";
 		print "<p>First, we invite demos from established energy harvesting systems &ndash; we aim to open ENSsys with a showcase of existing work to set a baseline of what is possible today and spark ideas for what can be built in the future.";
 		print " Demos previously presented in other venues are explicitly welcome.</p>";
-		print "<p>For new work, we invite short pitches on technical issues in energy harvesting systems that remain underserved or more radical positions that invite rethinking of current system design.";
-		print " We will use these pitches to organize several smaller, highly interactive workgroups.";
-		print " Accepted pitch papers will be invited for fast-track submission as full papers at ENSsys@ASPLOS.</p>";
+		print "<p>For new work, we invite short papers on technical issues in energy harvesting systems that remain underserved or more radical positions that invite rethinking of current system design. Unlike demo absracts, short paper submissions cannot contain previously published work.";
+		print " We will use these papers to organize several smaller, highly interactive workgroups.";
+		print " Accepted short papers will be invited for fast-track submission as full papers at ENSsys@ASPLOS.</p>";
 	}
 
 	function print_important_dates()
 	{
 		print "<ul>";
-		//print "<li>Tutorial/Demo Submission: "; print_pitch_deadline(); print "</li>";
+		//print "<li>Demo Submission: "; print_pitch_deadline(); print "</li>";
 		print "<li>Submission: "; print_abstract_deadline(); print "</li>";
 		print "<li>Notification:; "; print_notification_deadline(); print "</li>";
 		print "<li>Camera Ready: "; print_camera_ready_deadline(); print "</li>";

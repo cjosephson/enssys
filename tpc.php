@@ -68,6 +68,7 @@
 	<li>Maria Gorlatova, Duke University, USA</li>
 	<li>Jeremy Gummeson, University of Massachusetts Amherst, USA</li>
 	<li>Matthew Hicks, Virginia Tech, USA</li>
+	<li>Bashima Islam, Northwestern University, USA</li>
 	<li>Anand Savanth, Arm Research, UK</li>
 	<li>Olivier Sentieys, University of Rennes, France</li>
 	<li>Kasim Sinan Yildirim, University of Trento, Italy</li>
@@ -75,5 +76,15 @@
 	<li>Lars Wolf, TU Braunschweig, Germany</li>
 	<li>Matteo Zella, University Duisburg-Essen, Germany</li>
 </ul>
+<h1>Workshop Sponsors</h1>
+
+<div class="card">
+	<img src="images/vmware.png" width="120px" height="80px" alt="VMware logo">
+	<b>Demo prize sponsor</b><br>
+	VMware, Inc.<br>
+	Palo Alto, CA<br>
+	website: <a href="https://careers.vmware.com/main/">VMware careers</a><br>
+
+</div>
 
 <?php include "bottom.php"; ?>

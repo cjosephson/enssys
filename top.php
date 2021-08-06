@@ -21,26 +21,19 @@
 				<a href="index.php">Home</a>
 			</div>
 			<div class="menu_item">
-				<a href="call.php">Call for Papers</a>
-			</div>
+				<a href="call.php">Call for Papers and Demos</a>
+</div>
 			<div class="menu_item">
 				<a href="submission.php">Submission</a>
 			</div>
 			<div class="menu_item">
-				<a href="registration.php">Registration</a>
+				<a href="registration.php">Registration and Venue</a>
 			</div>
 			<div class="menu_item">
 				<a href="programme.php">Programme</a>
 			</div>
 			<div class="menu_item">
-				<a href="tpc.php">Organisers</a>
-			</div>
-						<div class="menu_item">
-				<a href="sponsors.php">Sponsors</a>
-			</div>
-
-			<div class="menu_item">
-				<a href="venue.php">Location</a>
+				<a href="tpc.php">Organisers and Sponsors</a>
 			</div>
 			<div class="menu_item">
 				<a href="contact.php">Contact Us</a>
