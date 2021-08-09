@@ -166,7 +166,7 @@
 		print "<ul>";
 		//print "<li>Demo Submission: "; print_pitch_deadline(); print "</li>";
 		print "<li>Submission: "; print_abstract_deadline(); print "</li>";
-		print "<li>Notification:; "; print_notification_deadline(); print "</li>";
+		print "<li>Notification: "; print_notification_deadline(); print "</li>";
 		print "<li>Camera Ready: "; print_camera_ready_deadline(); print "</li>";
 		print "</ul>";
 	}
