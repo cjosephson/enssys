@@ -68,7 +68,7 @@
 	<li>Maria Gorlatova, Duke University, USA</li>
 	<li>Jeremy Gummeson, University of Massachusetts Amherst, USA</li>
 	<li>Matthew Hicks, Virginia Tech, USA</li>
-	<li>Bashima Islam, Northwestern University, USA</li>
+	<li>Bashima Islam, Worcester Polytechnic Institute, USA</li>
 	<li>Anand Savanth, Arm Research, UK</li>
 	<li>Olivier Sentieys, University of Rennes, France</li>
 	<li>Kasim Sinan Yildirim, University of Trento, Italy</li>
