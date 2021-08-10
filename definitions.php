@@ -50,7 +50,7 @@
 	}
 	function print_camera_ready_deadline()
 	{
-		print "(tba)";
+		print "October 28, 2021";
 	}
 	function print_workshop_date()
 	{
