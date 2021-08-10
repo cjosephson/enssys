@@ -50,7 +50,7 @@
 	}
 	function print_camera_ready_deadline()
 	{
-		print "(tba)";
+		print "October 28, 2021";
 	}
 	function print_workshop_date()
 	{
@@ -156,7 +156,7 @@
 		print "<p>ENSsys@SenSys will be a highly interactive workshop.</p>";
 		print "<p>First, we invite demos from established energy harvesting systems &ndash; we aim to open ENSsys with a showcase of existing work to set a baseline of what is possible today and spark ideas for what can be built in the future.";
 		print " Demos previously presented in other venues are explicitly welcome.</p>";
-		print "<p>For new work, we invite short papers on technical issues in energy harvesting systems that remain underserved or more radical positions that invite rethinking of current system design. Unlike demo absracts, short paper submissions cannot contain previously published work.";
+		print "<p>For new work, we invite short papers on technical issues in energy harvesting systems that remain underserved or more radical positions that invite rethinking of current system design. Unlike demo abstracts, short paper submissions cannot contain previously published work.";
 		print " We will use these papers to organize several smaller, highly interactive workgroups.";
 		print " Accepted short papers will be invited for fast-track submission as full papers at ENSsys@ASPLOS.</p>";
 	}
