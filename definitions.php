@@ -105,7 +105,7 @@
 		print "<p><b>Demos:</b> ENSsys will also feature an &ldquo;energy harvesting village.&rdquo;";
 		print " This is an opportunity to showcase prior, established work (or new work!) to a new audience. ";
 		print " Demos should submit a short (1 page, 2 if needed) abstract describing their proposed demo as well as any support resources from the venue which may be needed.";
-		print " Demo abstracts will be included in the ENSsys proceedings <span style=\"color:grey\">(if desired)</span>, and we will encourage demos to be repeated at ASPLOS.";
+		print " Demo abstracts will be included in the ENSsys proceedings <span style=\"color:grey\">(if desired)</span>, and we will encourage demos to be repeated at ASPLOS. Both in-person and virtual demos are acceptable.";
 		;
 		print "<ul><li><a href='https://enssys21.hotcrp.com/'>Submit demo abstracts via HotCRP</a> &ndash; Be sure to chose the demos track!</li></ul>";
 		;
