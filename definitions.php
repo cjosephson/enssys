@@ -146,6 +146,7 @@
 
 	function print_enssys_info()
 	{
+		print "<p><b><a href=\"programme.php\">New: The schedule for ENSsys@SenSys is up!</a></b></p>";
 		print "<p>Complementing the topics of SenSys 2021 and ASPLOS 2022, this workshop will bring researchers together to explore the challenges, issues, and opportunities in the research, design, and engineering of energy-harvesting, energy-neutral, and intermittent sensing systems.</p>";
 		print "<p>New this year, ENSsys will run twice, first as a part of SenSys 2021 and then <span style=\"color:grey\">(tentatively)</span> as a part of ASPLOS 2022. Our goal is to leverage the success of ENSsys to both continue to support our home in the wireless sensor networking community and to grow interest and excitement for energy neutral, energy harvesting, and intermittent systems in the computer architecture and systems communities. For ENSsys@SenSys, we invite 1-2 page demo abtracts and short 2-3 page short papers. The short papers, which may be early ideas, will receive thoughtful feedback from TPC members and seed breakout discussions in the afternoon of ENSsys@SenSys. Short papers that grow to full paper submissions in time for the second iteration of ENSsys@ASPLOS will receive special consideration and the same set of reviewers <span style=\"color:grey\">(where possible)</span>. Accepted demos will also be invited to repeat their demo again at ASPLOS.</p>";
 	}
