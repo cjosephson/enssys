@@ -123,7 +123,7 @@ how many remote versus in-person attendees we will have.</p>
 
 Accepted papers:
 <ul>
-  <li> Autonomous Energy Status Sharing and Synchronization for Batteryless Sensor Networks</li>
+  <li>Autonomous Energy Status Sharing and Synchronization for Batteryless Sensor Networks</li>
   <li>Persistent Timekeeping Using Harvested Power Measurements</li>
   <li>Joint Energy Management for Distributed Energy Harvesting Systems</li>
   <li>RESERVE: Remote Attestation of Intermittent IoT devices</li>
