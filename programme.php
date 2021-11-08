@@ -7,6 +7,7 @@ ENSsys will be run in a hybrid format this year.
 For this reason, we are operating on a slightly compressed schedule to maximize accessibility across time zones.
 </p>
 <p>Remote attendees can <a href="https://ucsd.zoom.us/j/98304600407">join via Zoom, here</a>.</p>
+<p>For realtime chat with attendees or the ENSsys organizers, please use the <a href="https://sensys21-buildsys21.slack.com">SenSys / BuildSys 2021 Slack</a>.</p>
 <p>For those unable to attend synchronously, we will be recording the opening
 remarks and the demo spotlights.  To promote and ensure free and open
 discussion, we <i>will not</i> be recording during the demo village or the
