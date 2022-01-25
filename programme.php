@@ -124,12 +124,12 @@ in-person demo environment to make text chat the better option).</p>
   <tr>
     <td>15:40-15:50</td>
     <td>In Person</td>
-    <td>Demo: A Battery-Free Long-Range Wireless Smart Camera for Face Recognition</td>
+    <td>Demo: A Battery-Free Long-Range Wireless Smart Camera for Face Recognition <i>(Best Demo Winner, Community Choice)</i></td>
   </tr>
   <tr>
     <td>15:50-16:00</td>
     <td>Remote</td>
-    <td>Demo: Powering an E-Ink Display from Soil Bacteria</td>
+    <td>Demo: Powering an E-Ink Display from Soil Bacteria <i>(Best Demo Winner, Organizer's Choice)</i></td>
   </tr>
   <tr>
     <td>16:00-16:10</td>
